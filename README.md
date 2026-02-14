@@ -25,10 +25,10 @@ The wrapper handles unit conversion, constructs the NequIP input dictionary (inc
 - PyTorch (compatible with your NequIP installation)
 - NequIP 0.16.x
 - ASE (for reading the PDB file)
-- A deployed NequIP model (`lutein_deployed.nequip.pth`)
-- The corresponding PDB structure file (`lutein.pdb`)
+- A deployed NequIP model (here `lutein_deployed.nequip.pth` as an example)
+- The corresponding PDB structure file (here `lutein.pdb` as an example)
 
-## Usage
+## Usage Example
 
 Place `build_wrapper.py`, `lutein_deployed.nequip.pth`, and `lutein.pdb` in the same directory, then run:
 
